@@ -6,7 +6,7 @@
 </head>
 <body>
 	<?php
-		if (!empty($_POST["nombre"]) && !empty($_POST["apellido"]) && !empty($_POST["apellido2"])) {
+		if (isset($_POST["nombre"]) && !empty($_POST["nombre"]) && isset($_POST["apellido"]) && !empty($_POST["apellido"]) && isset($_POST["apelllido2"]) && !empty($_POST["apellido2"])) {
 			echo ucfirst($_POST["nombre"]) . " " . ucfirst($_POST["apellido"]) . " " . ucfirst($_POST["apellido2"]);
 		}
 		else {
