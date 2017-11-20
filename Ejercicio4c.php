@@ -19,7 +19,7 @@
 			echo "<br> El mayor es ".$narray[2];
 			echo "<br> El mediano es ".$narray[1];
 			echo "<br> El pequeño es ".$narray[0];
-			echo "<br>"
+			echo "<br>";
 			print_r($narray);
 		} else {
 			echo "Mete una edad";			
